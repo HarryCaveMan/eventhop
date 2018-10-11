@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const exphbs = require("express-handlebars");
 const path = require("path");
 const socket = require('socket.io');
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 const app = express();
 const http = require("http").Server(app);
 // requires models to sync database
