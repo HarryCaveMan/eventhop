@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server"
+    "test": "node server",
+    "start":"node server"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/HarryCaveMan/Project-2#readme",
   "dependencies": {
+    "nodemon":"1.18.4",
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
     "cookie-parser": "^1.4.3",
